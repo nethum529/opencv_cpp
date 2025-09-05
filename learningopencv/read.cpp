@@ -43,19 +43,19 @@ using namespace cv;
 
 
 // Webcam //
-int main() {
+// int main() {
 
-    VideoCapture cap(0);
-    Mat img;
-        while(true) {
+//     VideoCapture cap(0);
+//     Mat img;
+//         while(true) {
 
-        cap.read(img);
+//         cap.read(img);
 
-        imshow("Image", img);
-        waitKey(1); // won't close until the close button is pressed
-    };
+//         imshow("Image", img);
+//         waitKey(1); // won't close until the close button is pressed
+//     };
 
 
-    return 0;
+//     return 0;
 
-}
+// }
